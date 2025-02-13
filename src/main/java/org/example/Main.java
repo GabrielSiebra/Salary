@@ -22,15 +22,17 @@ public class Main {
         System.out.print("Tax: ");
         employee.tax = sc.nextDouble();
 
-        System.out.println(employee.toString());
+        System.out.println();
+        System.out.println("Employee: "+ employee);
+        System.out.println();
+        System.out.println("Which percentage to increase salary?");
+        double percentage = sc.nextDouble();
+        employee.increaseSalary(percentage);
 
-        System.out.println("Wich percentage to increase salary?");
-        employee.percentage = sc.nextDouble();
-
-        System.out.print("Updated data "+ employee.name+", $ "+employee.percentage);
+        System.out.print("Updated data "+ employee);
 
 
 
-    sc.close();
+        sc.close();
         }
     }

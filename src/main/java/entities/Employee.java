@@ -8,7 +8,7 @@ public class Employee {
     public double percentage;
 
 
-public  double netSalary(double grossSalary){
+public  double netSalary(){
     return this.grossSalary - tax;
 }
 
