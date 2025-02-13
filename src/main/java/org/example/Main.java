@@ -22,7 +22,7 @@ public class Main {
         System.out.print("Tax: ");
         employee.tax = sc.nextDouble();
 
-        System.out.println("Employee: "+ employee.name+ " $ "+ employee.netSalary(grossSalary);
+        System.out.println(employee.toString());
 
         System.out.println("Wich percentage to increase salary?");
         employee.percentage = sc.nextDouble();

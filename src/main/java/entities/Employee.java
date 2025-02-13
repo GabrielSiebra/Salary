@@ -17,7 +17,7 @@ public void increaseSalary(double percentage){
     }
 
     public String toString() {
-        return name + increaseSalary();
-    }
+        return name + ", $ " + String.format("%.2f", netSalary());
+}
 }
 
